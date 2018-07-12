@@ -1,0 +1,125 @@
+{
+  "designerVersion" : "1.7.57",
+  "id" : "prueba",
+  "name" : "prueba",
+  "lastUpdate" : 1531416047104,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "headers" : {
+        "type" : "constant",
+        "value" : [ "Id", "Name", "Description", "Date" ]
+      },
+      "type" : {
+        "type" : "constant",
+        "value" : "Bonita API"
+      },
+      "apiUrl" : {
+        "type" : "constant",
+        "value" : "../API/"
+      },
+      "params" : {
+        "type" : "constant"
+      },
+      "content" : {
+        "type" : "constant"
+      },
+      "columnsKey" : {
+        "type" : "constant"
+      },
+      "sortColumns" : {
+        "type" : "constant"
+      },
+      "selectedRow" : {
+        "type" : "variable",
+        "value" : ""
+      },
+      "pageSize" : {
+        "type" : "constant",
+        "value" : 10
+      },
+      "filter" : {
+        "type" : "constant"
+      }
+    },
+    "reference" : "16d3358e-fb23-4d5d-a7bd-2c3e7689a203",
+    "id" : "pbDataTable"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "type" : {
+        "type" : "constant",
+        "value" : "Doughnut"
+      },
+      "data" : {
+        "type" : "constant",
+        "value" : [ 65, 59, 80, 81, 56, 55, 40 ]
+      },
+      "labels" : {
+        "type" : "constant",
+        "value" : [ "January", "February", "March", "April", "May", "June", "July" ]
+      },
+      "setLabels" : {
+        "type" : "constant",
+        "value" : [ "Default set label" ]
+      },
+      "legendHidden" : {
+        "type" : "constant",
+        "value" : true
+      },
+      "colors" : {
+        "type" : "constant"
+      },
+      "options" : {
+        "type" : "constant"
+      }
+    },
+    "reference" : "98bb20c7-2a2e-4452-98a5-2c69911e4777",
+    "id" : "pbChart"
+  } ] ],
+  "assets" : [ {
+    "id" : "476b4e66-9fac-492a-8216-fc340b3891a1",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "858744c6-d4b5-4f59-80c8-bb5e594b77b4",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "uuid" : "2315dc71-958b-49f8-859a-dfbe4bf20e92",
+  "type" : "page"
+}
